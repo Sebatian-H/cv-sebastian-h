@@ -1,7 +1,7 @@
 body {
     background-color: aquamarine; 
 }
-
+/*Kod för att styla och positionera navigationsbaren*/
 .navbar {   
     overflow: hidden;
 }
@@ -18,31 +18,22 @@ body {
     border-style: solid;
     border-color: aquamarine;
 }
-
+/*Gör så att länken ändrar färg när man har musen ovanför*/
 .navbar a:hover {
     background-color: #ddd;
     color:black;
     border-color: black;
 }
-
+/*Gör så att länken har färgen blå när man är inne på just den sidan*/
 .navbar a.active {
     background-color: blue;
     color: white;
 }
-
+/*Kod för att ändra texts position och utseende*/
 .course-list-style li {
     color: black;
     padding-bottom: 5px;
     font-size: 17px;
-}
-
-.profile-picture {
-    max-height: 360px;   
-    float: right;
-    border: 5px;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 5px;
 }
 
 .font-comic-sans {
@@ -60,6 +51,7 @@ h1 {
 p {
     font-size: 17px;
 }
+/*Kod för att ändra bilder utseende och postion*/
 .programerings-bild {
     display: block;
     margin-left: auto;
@@ -94,4 +86,25 @@ p {
     margin-left: auto;
     margin-right: auto;
     border: 4px solid blue;   
+}
+
+.tate-img {
+    float: right;
+}
+
+.netflix-img {
+    float: left;
+}
+
+.gym-img {
+    float: right;
+}
+
+.profile-picture {
+    max-height: 360px;   
+    float: right;
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
 }
