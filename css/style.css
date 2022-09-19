@@ -90,14 +90,14 @@ p {
 
 .tate-img {
     float: right;
+    height: 450px;
+    width: auto ;
 }
 
 .netflix-img {
     float: left;
-}
-
-.gym-img {
-    float: right;
+    height: auto;
+    width: 550px;
 }
 
 .profile-picture {
