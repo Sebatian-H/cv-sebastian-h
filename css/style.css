@@ -51,6 +51,12 @@ h1 {
 p {
     font-size: 17px;
 }
+
+.text-border {
+    border: 4px;
+    border-style: solid;
+    border-radius: 6px;
+}
 /*Kod för att ändra bilder utseende och postion*/
 .programerings-bild {
     display: block;
